@@ -398,7 +398,9 @@ form {
     display: block;
     justify-content: center;
     align-items: center;
-    background: gold;
+    /* background: url('img_pack/old_page_background.jpg'); */
+    background: #ffe559;
+    background-position: center;
     color: black;
     margin: 3em;
     /* padding: 1em 0.6em; */
@@ -517,7 +519,8 @@ td {
     display: block;
     justify-content: center;
     align-items: center;
-    background: gold;
+    /* background: url('img_pack/old_page_background.jpg'); */
+    background: #ffe559;
     color: black;
     margin: 3em;
     /* padding: 1em 0.6em; */
