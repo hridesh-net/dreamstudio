@@ -13,12 +13,17 @@ body {
 }
 
 
-/* @media only screen and (max-width: 411px) {
+/* @media only screen and (max-width: 360px) {
     body {
-        width: 455px;
-        width: 100%;
+        width: 640px;
     }
 } */
+
+@media only screen and (max-width: 411px) {
+    body {
+        height: 823px;
+    }
+}
 
 #image_slider {
     /* position: absolute; */
@@ -43,16 +48,15 @@ body {
         background: red;
     } */
     #image_slider {
-        width: 110%;
-        height: 31vh;
+        width: 116%;
+        height: 34vh;
     }
 }
 
 
-/* @media screen and (max-width: 411px) {
+/* @media screen and (min-width: 411px) {
     #image_slider {
-        width: 117%;
-        height: 35vh;
+        height: 31vh;
     }
 } */
 
@@ -84,6 +88,13 @@ body {
     }
 }
 
+
+/* @media only screen and (min-width: 411px) {
+    #logo {
+        margin-inline: 40%;
+    }
+} */
+
 #logo img {
     width: 4rem;
     height: 3rem;
@@ -101,6 +112,16 @@ body {
     } */
     #midbody {
         width: 110%;
+        height: 31vh;
+    }
+}
+
+@media only screen and (min-width: 411px) {
+    /* body {
+        background: red;
+    } */
+    #midbody {
+        width: 100%;
         height: 31vh;
     }
 }
@@ -251,9 +272,11 @@ body {
 }
 
 form {
+    display: flex;
     backdrop-filter: blur(18px);
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
 #msg_area {
@@ -292,6 +315,15 @@ form {
     flex-direction: column;
 }
 
+#s_form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    align-content: space-around;
+    width: 100%;
+}
+
 
 /* #contact-box input, */
 
@@ -300,7 +332,7 @@ form {
     padding: 0.5rem;
     border-radius: 9px;
     font-size: 1.05rem;
-    margin-left: 1.5em;
+    margin-left: 1em;
     background-color: transparent;
 }
 
@@ -340,6 +372,17 @@ form {
     color: white;
     font-family: ui-rounded;
     font-size: medium;
+    font-family: 'Baloo Bhai 2', cursive;
+}
+
+#submit:hover {
+    position: relative;
+    bottom: 3px;
+    border-radius: 30px;
+    background: #7d7d7d;
+    color: black;
+    font-weight: bold;
+    box-shadow: 0px 1px 2px 3px rgba(155, 153, 153, 0.774);
 }
 
 .name {
@@ -374,12 +417,18 @@ form {
     }
 }
 
+.formgroup {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
 .formgroup input {
-    width: 90.5%;
+    width: 51%;
     padding: 0.5rem 0.25rem;
     border-radius: 19px;
-    margin: .2em .9em;
-    margin-left: 1.4rem;
+    margin: .2em 0em;
+    margin-left: 9.4rem;
     font-size: 1.05rem;
     background-color: transparent;
 }
@@ -403,7 +452,14 @@ form {
     background-position: center;
     color: black;
     margin: 3em;
+    font-family: 'Baloo Bhai 2', cursive;
     /* padding: 1em 0.6em; */
+}
+
+@media only screen and (max-width: 411px) {
+    #about_us {
+        margin: 1.6em;
+    }
 }
 
 
@@ -506,13 +562,28 @@ td {
     padding: 5px 17px;
     background: #0000001c;
     color: #2f2929;
+    justify-content: center;
     border-radius: 17px;
+}
+
+@media only screen and (max-width: 411px) {
+    #services .box {
+        width: 18em;
+        margin: 13px 11px;
+        padding: 1px 14px;
+    }
 }
 
 #services .box img {
     height: 164px;
     display: block;
     margin: auto;
+}
+
+@media only screen and (max-width: 411px) {
+    #services .box img {
+        height: 153px;
+    }
 }
 
 #our_services {
@@ -523,7 +594,14 @@ td {
     background: #ffe559;
     color: black;
     margin: 3em;
+    font-family: 'Baloo Bhai 2', cursive;
     /* padding: 1em 0.6em; */
+}
+
+@media only screen and (max-width: 411px) {
+    #our_services {
+        margin: 1.6em;
+    }
 }
 
 
@@ -569,6 +647,7 @@ td {
 /* footer section */
 
 footer {
+    bottom: 0px;
     background: black;
     color: blanchedalmond;
     padding: 9px 20px;
