@@ -499,9 +499,9 @@ td {
 
 #services .box {
     /* border: 2px solid brown; */
-    width: 22em;
+    width: 20em;
     margin: 13px 11px;
-    padding: 5px 5px;
+    padding: 5px 17px;
     background: #0000001c;
     color: #2f2929;
     border-radius: 17px;
@@ -534,7 +534,7 @@ td {
 #services .box:hover {
     box-shadow: 1px 1px 3px 5px rgb(45 44 44 / 29%);
     position: relative;
-    bottom: 6px;
+    bottom: 8px;
 }
 
 
