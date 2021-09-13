@@ -534,7 +534,7 @@ td {
 #services .box:hover {
     box-shadow: 1px 1px 3px 5px rgb(45 44 44 / 29%);
     position: relative;
-    bottom: 8px;
+    bottom: 9px;
 }
 
 
