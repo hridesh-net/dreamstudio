@@ -43,6 +43,37 @@ body {
     z-index: -1;
 }
 
+@media only screen and (max-width: 1367px) {
+    #image_slider {
+        width: 101%;
+        height: 62vh;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    #image_slider {
+        width: 103%;
+        height: 43vh;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    /* body {
+        background: red;
+    } */
+    #image_slider {
+        width: 105%;
+        height: 34vh;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #image_slider {
+        width: 100%;
+        height: 28vh;
+    }
+}
+
 @media only screen and (max-width: 411px) {
     /* body {
         background: red;
@@ -50,6 +81,23 @@ body {
     #image_slider {
         width: 116%;
         height: 34vh;
+    }
+}
+
+@media only screen and (max-width: 376px) {
+    #image_slider {
+        width: 100%;
+        height: 26vh;
+    }
+}
+
+@media only screen and (max-width: 361px) {
+    /* body {
+        background: red;
+    } */
+    #image_slider {
+        width: 122%;
+        height: 32vh;
     }
 }
 
@@ -81,23 +129,34 @@ body {
     align-items: center;
 }
 
+@media only screen and (max-width: 769px) {
+    #midbody {
+        width: 100%;
+        height: 31vh;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #midbody {
+        width: 100%;
+        height: 31vh;
+    }
+}
+
 @media only screen and (max-width: 411px) {
     /* body {
         background: red;
     } */
     #midbody {
-        width: 110%;
+        width: 116%;
         height: 31vh;
     }
 }
 
-@media only screen and (min-width: 411px) {
-    /* body {
-        background: red;
-    } */
+@media only screen and (max-width: 376px) {
     #midbody {
         width: 100%;
-        height: 31vh;
+        /* height: 31vh; */
     }
 }
 
@@ -117,6 +176,12 @@ body {
     /* border-radius: 200%; */
     align-self: center;
     margin-inline: 47%;
+}
+
+@media only screen and (max-width: 426px) {
+    #logo {
+        margin-inline: 42%;
+    }
 }
 
 @media only screen and (max-width: 411px) {
@@ -156,6 +221,19 @@ body {
     justify-content: center;
     align-items: center;
     margin: 0rem .6rem;
+}
+
+@media only screen and (max-width: 426px) {
+    .user_connect {
+        border: transparent;
+        border-radius: 50px;
+        height: 1.8rem;
+        width: 1.8rem;
+        padding: 1.1rem 1.1rem;
+        justify-content: center;
+        align-items: center;
+        margin: .4rem .6rem;
+    }
 }
 
 @media only screen and (max-width: 411px) {
@@ -218,6 +296,18 @@ body {
     background: #2f2929;
 }
 
+@media only screen and (max-width: 426px) {
+    #discription_box {
+        display: flex;
+        margin: 0.3em;
+        margin-top: 1.3em;
+        padding: .5rem;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-left: .5rem;
+    }
+}
+
 @media only screen and (max-width: 411px) {
     #discription_box {
         display: flex;
@@ -226,7 +316,7 @@ body {
         padding: .5rem;
         flex-direction: row;
         justify-content: space-evenly;
-        margin-left: 2.5rem;
+        margin-left: .9rem;
     }
 }
 
@@ -253,6 +343,17 @@ body {
     z-index: 2;
 }
 
+@media only screen and (max-width: 426px) {
+    #discription_btn {
+        display: block;
+        margin-left: .2em;
+        align-items: center;
+        height: 12em;
+        /* flex-wrap: nowrap;
+        flex-direction: column; */
+    }
+}
+
 @media only screen and (max-width: 411px) {
     #discription_btn {
         display: block;
@@ -273,6 +374,14 @@ body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
     color: bisque;
+}
+
+@media only screen and (max-width: 426px) {
+    #discription_box p {
+        padding: .5rem;
+        margin: 1.5rem;
+        margin-top: .1em;
+    }
 }
 
 @media only screen and (max-width: 411px) {
@@ -363,14 +472,26 @@ form {
     align-items: center;
 }
 
+@media only screen and (max-width: 769px) {
+    #contact-box form {
+        width: 51%;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    #contact-box form {
+        width: 83%;
+    }
+}
+
 @media only screen and (max-width: 411px) {
     #contact-box form {
         display: flex;
-        width: 64%;
+        width: 80%;
         justify-content: center;
-        align-items: center;
         flex-direction: column;
         align-content: space-around;
+        align-items: center;
     }
 }
 
@@ -446,6 +567,26 @@ form {
     margin-left: 9.4rem;
     font-size: 1.05rem;
     background-color: transparent;
+}
+
+@media only screen and (max-width: 1369px) {
+    .formgroup input {
+        /* width: 81%; */
+        margin-left: 7.4rem;
+    }
+}
+
+@media only screen and (max-width: 1025px) {
+    .formgroup input {
+        margin-left: 6.4rem;
+    }
+}
+
+@media only screen and (max-width: 769px) {
+    .formgroup input {
+        margin-left: 4.4rem;
+        width: 61%;
+    }
 }
 
 @media only screen and (max-width: 411px) {
@@ -680,6 +821,12 @@ footer {
     padding-bottom: 13px;
 }
 
+@media only screen and (max-width: 411px) {
+    #video_section {
+        margin: 1.5em;
+    }
+}
+
 .video_box {
     height: 31em;
     width: 54em;
@@ -693,9 +840,50 @@ footer {
     box-shadow: 0px 2px 3px 4px #61616142;
 }
 
+@media only screen and (max-width: 769px) {
+    .video_box {
+        height: 23em;
+        width: 39em;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .video_box {
+        height: 13em;
+        width: 22em;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .video_box {
+        height: 15em;
+        width: 21em;
+    }
+}
+
 .video_box video {
     height: 28em;
     width: auto;
+}
+
+@media only screen and (max-width: 769px) {
+    .video_box video {
+        height: 20em;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 426px) {
+    .video_box video {
+        height: 11em;
+        width: auto;
+    }
+}
+
+@media only screen and (max-width: 411px) {
+    .video_box video {
+        height: 11em;
+    }
 }
 
 
@@ -804,7 +992,13 @@ footer {
     margin: 0 auto;
 }
 
-@media only screen and (max-width: 411px) {
+@media only screen and (max-width: 415px) {
+    .upper_design {
+        width: 20em;
+    }
+}
+
+@media only screen and (max-width: 412px) {
     .upper_design {
         width: 20em;
     }
