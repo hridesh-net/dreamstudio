@@ -5,7 +5,7 @@
 } */
 
 body {
-    background: rgb(239 239 239);
+    background: rgb(232 231 231 / 92%);
     margin: 0;
     padding: 0;
     /* width: 411px; */
@@ -30,7 +30,7 @@ body {
 
 #image_slider {
     position: absolute;
-    top: 0px;
+    top: -77px;
     /* display: block;
     top: 0px; */
     /* border: 2px solid red; */
@@ -126,7 +126,7 @@ body {
 /* mid_body section */
 
 #midbody {
-    margin-top: 46em;
+    margin-top: 41.5em;
     justify-content: center;
     align-items: center;
 }
@@ -464,7 +464,7 @@ form {
     border-radius: 9px;
     font-size: 1.05rem;
     margin-left: 1em;
-    background-color: transparent;
+    background-color: white;
 }
 
 @media only screen and (max-width: 411px) {
