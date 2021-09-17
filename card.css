@@ -37,8 +37,8 @@ body {
     margin: 0px;
     padding: 0px;
     display: block;
-    width: 100%;
-    height: 56vh;
+    width: 101%;
+    height: 111vh;
     overflow: hidden;
     z-index: -1;
 }
@@ -163,7 +163,7 @@ body {
 #midbody hr {
     width: 18em;
     height: 3px;
-    background-color: cornflowerblue;
+    background-color: #009ba3;
 }
 
 
@@ -172,7 +172,7 @@ body {
 #logo {
     display: inline-block;
     border: 2px solid black;
-    background: rgb(155 155 155);
+    background: rgb(51 195 202);
     /* border-radius: 200%; */
     align-self: center;
     margin-inline: 47%;
@@ -198,9 +198,9 @@ body {
 } */
 
 #logo img {
-    width: 4rem;
-    height: 3rem;
-    padding: .5rem;
+    width: 5rem;
+    height: 5rem;
+    /* margin-bottom: -4px; */
 }
 
 #contact_btn {
@@ -287,13 +287,14 @@ body {
 } */
 
 #discription_box {
+    border: 14px solid #27b5bc;
     display: flex;
     margin: 1.3em;
     padding: 4rem;
     flex-direction: row;
     justify-content: space-evenly;
     /* margin-left: 2.5rem; */
-    background: #2f2929;
+    background: whitesmoke;
 }
 
 @media only screen and (max-width: 426px) {
@@ -334,7 +335,7 @@ body {
 
 #discription_btn {
     display: flex;
-    background: rgb(0 77 96);
+    background: rgb(35 191 199 / 69%);
     justify-content: space-evenly;
     flex-direction: column;
     flex-wrap: nowrap;
@@ -373,7 +374,7 @@ body {
     font-size: 1.2em;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     text-align: justify;
-    color: bisque;
+    color: #1b959b;
 }
 
 @media only screen and (max-width: 426px) {
@@ -603,10 +604,10 @@ form {
     display: block;
     justify-content: center;
     align-items: center;
-    /* background: url('img_pack/old_page_background.jpg'); */
-    background: #ffe559;
+    /* background: url(img_pack/old_page_background.jpg); */
+    background: #33c3ca;
     background-position: center;
-    color: black;
+    color: white;
     margin: 3em;
     font-family: 'Baloo Bhai 2', cursive;
     /* padding: 1em 0.6em; */
@@ -717,7 +718,7 @@ td {
     margin: 13px 11px;
     padding: 5px 17px;
     background: #0000001c;
-    color: #2f2929;
+    color: white;
     justify-content: center;
     border-radius: 17px;
 }
@@ -747,8 +748,8 @@ td {
     justify-content: center;
     align-items: center;
     /* background: url('img_pack/old_page_background.jpg'); */
-    background: #ffe559;
-    color: black;
+    background: #33c3ca;
+    color: white;
     margin: 3em;
     font-family: 'Baloo Bhai 2', cursive;
     /* padding: 1em 0.6em; */
@@ -814,8 +815,8 @@ footer {
     justify-content: center;
     align-items: center;
     /* background: url('img_pack/old_page_background.jpg'); */
-    background: #ffe559;
-    color: black;
+    background: #33c3ca;
+    color: white;
     margin: 3em;
     font-family: 'Baloo Bhai 2', cursive;
     padding-bottom: 13px;
@@ -984,7 +985,7 @@ footer {
     /* border: 2px solid red; */
     height: 2.4em;
     width: 24em;
-    background: #202020;
+    background: white;
     justify-content: center;
     align-content: center;
     border-radius: 0em 0em 604em 604em;
