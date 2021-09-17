@@ -29,7 +29,8 @@ body {
 /* image slider */
 
 #image_slider {
-    /* position: absolute; */
+    position: fixed;
+    top: 0px;
     /* display: block;
     top: 0px; */
     /* border: 2px solid red; */
@@ -125,6 +126,7 @@ body {
 /* mid_body section */
 
 #midbody {
+    margin-top: 46em;
     justify-content: center;
     align-items: center;
 }
