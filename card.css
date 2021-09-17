@@ -29,7 +29,7 @@ body {
 /* image slider */
 
 #image_slider {
-    position: fixed;
+    position: absolute;
     top: 0px;
     /* display: block;
     top: 0px; */
