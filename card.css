@@ -789,7 +789,7 @@ td {
     width: 20em;
     margin: 13px 11px;
     padding: 5px 17px;
-    background: #0000001c;
+    background: #2daeb4;
     color: white;
     justify-content: center;
     border-radius: 17px;
@@ -820,8 +820,9 @@ td {
     justify-content: center;
     align-items: center;
     /* background: url('img_pack/old_page_background.jpg'); */
-    background: #33c3ca;
-    color: white;
+    background: white;
+    color: #2daeb4;
+    border: 11px solid #2daeb4;
     margin: 3em;
     font-family: 'Baloo Bhai 2', cursive;
     /* padding: 1em 0.6em; */
