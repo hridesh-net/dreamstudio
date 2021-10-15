@@ -1089,3 +1089,17 @@ footer {
 .heading {
     margin-bottom: .8em;
 }
+
+
+/* view counter */
+
+.kjIukz {
+    display: inline-flex;
+    border-radius: 21px;
+    flex-direction: column;
+    max-width: 100%;
+    overflow: hidden;
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    color: rgb(17, 17, 17);
+}
